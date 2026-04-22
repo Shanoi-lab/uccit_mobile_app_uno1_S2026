@@ -31,11 +31,13 @@ Main Project files:
 
 
 
-Instructions to successfully launch the app:
+Instructions to successfully launch the app in Android Studio:
 
-1. Clone the repo: git clone https://github.com/yourusername/uccit_mobile_app_uno1_S2026.git
-2. Run composer install (Install composer from :https://getcomposer.org/download/)
-3. Copy .env to .env and configure database with name ucc_resources_pwa as this is the name given to the database that was create in phpmyadmin
-4. Run php artisan key:generate
-5. Run php artisan migrate --seed (This updates the database)
-6. Run php artisan serve
+1. Open Android Studio.
+2. Click the three dot menu.
+3. Select Profile or Debug APK.
+4. Find and select ucc-IT-dept-uno1-app.apk
+5. Click "OK".
+6. If Android Studio asks, choose "Use new project".
+7. After it loads, click Run to launch the app in the emulator.
+
