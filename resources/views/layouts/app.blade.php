@@ -16,20 +16,6 @@
     {{-- App Stylesheet --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
-
-     <script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-            navigator.serviceWorker.register('/serviceworker.js')
-                .then(function (reg) {
-                    console.log('Service Worker registered:', reg.scope);
-                })
-                .catch(function (err) {
-                    console.error('Service Worker failed:', err);
-                });
-        });
-    }
-</script>
         
     <body>
 
@@ -67,5 +53,19 @@
     </a>
 
     <script src="{{ asset('js/app.js') }}"></script>
+
+ <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('/serviceworker.js')
+                .then(function (reg) {
+                    console.log('Service Worker registered:', reg.scope);
+                })
+                .catch(function (err) {
+                    console.error('Service Worker failed:', err);
+                });
+        });
+    }
+ </script>
 </body>
 </html>
