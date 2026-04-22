@@ -11,27 +11,13 @@
     @laravelPWA
 
     {{-- Google Fonts --}}
-    <link rel="manifest" href="/manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 
     {{-- App Stylesheet --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
-<body>
-    
-    <script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-            navigator.serviceWorker.register('/serviceworker.js')
-                .then(function (reg) {
-                    console.log('Service Worker registered:', reg.scope);
-                })
-                .catch(function (err) {
-                    console.error('Service Worker failed:', err);
-                });
-        });
-    }
-     </script>
+        
+    <body>
 
     {{-- Top App Bar --}}
     <header class="app-bar">
@@ -67,5 +53,19 @@
     </a>
 
     <script src="{{ asset('js/app.js') }}"></script>
+
+ <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('/serviceworker.js')
+                .then(function (reg) {
+                    console.log('Service Worker registered:', reg.scope);
+                })
+                .catch(function (err) {
+                    console.error('Service Worker failed:', err);
+                });
+        });
+    }
+ </script>
 </body>
 </html>
