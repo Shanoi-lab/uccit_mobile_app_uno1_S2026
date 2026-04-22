@@ -1,6 +1,6 @@
 // UCC IT Student Portal - Service Worker
 // Cache name - update the version number whenever you make changes to your site
-const CACHE_NAME = 'ucc-it-cache-v1';
+const CACHE_NAME = 'ucc-it-cache-v2';
 
 // All the pages/assets to cache when the app is first installed
 const urlsToCache = [
