@@ -36,7 +36,7 @@ Instructions to successfully launch the app in Android Studio:
 1. Open Android Studio.
 2. Click the three dot menu.
 3. Select Profile or Debug APK.
-4. Find and select ucc-IT-dept-uno1-app.apk
+4. Find and select ucc-IT-dept-uno1-app.apk (App Path: ucc-IT-dept-uno1-app/app/release/ucc-IT-dept-uno1-app.apk)
 5. Click "OK".
 6. If Android Studio asks, choose "Use new project".
 7. After it loads, click Run to launch the app in the emulator.
