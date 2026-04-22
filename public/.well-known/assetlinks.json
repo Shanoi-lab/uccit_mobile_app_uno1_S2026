@@ -1,0 +1,12 @@
+[
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.ucc.it.studentportal",
+            "sha256_cert_fingerprints": [
+                "6B:FD:96:ED:14:8F:81:0C:25:CD:75:42:FF:FE:D8:BA:2B:C6:79:93:42:BE:B6:90:D4:EB:D7:13:76:2F:7A:25"
+            ]
+        }
+    }
+]
