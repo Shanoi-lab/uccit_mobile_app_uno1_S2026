@@ -11,15 +11,13 @@
     @laravelPWA
 
     {{-- Google Fonts --}}
-    <link rel="manifest" href="/manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 
     {{-- App Stylesheet --}}
-    <link rel="stylesheet" href="http://yoursite.com/css/app.css">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
-<body>
-    
-    <script>
+
+     <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function () {
             navigator.serviceWorker.register('/serviceworker.js')
@@ -31,7 +29,9 @@
                 });
         });
     }
-     </script>
+</script>
+        
+    <body>
 
     {{-- Top App Bar --}}
     <header class="app-bar">
