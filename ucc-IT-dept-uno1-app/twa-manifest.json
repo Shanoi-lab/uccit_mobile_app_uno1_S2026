@@ -1,0 +1,65 @@
+{
+  "packageId": "app.railway.up.uccitmobileappuno1s2026_production.twa",
+  "host": "uccitmobileappuno1s2026-production.up.railway.app",
+  "name": "UCC IT Student Portal",
+  "launcherName": "UCC IT",
+  "display": "standalone",
+  "themeColor": "#0D3B6E",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://uccitmobileappuno1s2026-production.up.railway.app/icons/icon-512x512.png",
+  "maskableIconUrl": "https://uccitmobileappuno1s2026-production.up.railway.app/icons/icon-512x512.png",
+  "monochromeIconUrl": "https://uccitmobileappuno1s2026-production.up.railway.app/icons/icon-192x192.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "? Key store location: C:\\Users\\Alberth Mckenzie\\StudioProjects\\uccit_mobile_app_uno1_S2026\\ucc-it-keystore.jks",
+    "alias": "ucc-it"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Courses",
+      "shortName": "Courses",
+      "url": "https://uccitmobileappuno1s2026-production.up.railway.app/courses",
+      "chosenIconUrl": "https://uccitmobileappuno1s2026-production.up.railway.app/icons/icon-192x192.png"
+    },
+    {
+      "name": "Admissions",
+      "shortName": "Admissions",
+      "url": "https://uccitmobileappuno1s2026-production.up.railway.app/admissions",
+      "chosenIconUrl": "https://uccitmobileappuno1s2026-production.up.railway.app/icons/icon-192x192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://uccitmobileappuno1s2026-production.up.railway.app/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://uccitmobileappuno1s2026-production.up.railway.app/",
+  "minSdkVersion": 21,
+  "orientation": "landscape",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "displayOverride": [],
+  "appVersion": "1"
+}
