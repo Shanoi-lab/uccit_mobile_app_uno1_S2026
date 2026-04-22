@@ -18,6 +18,20 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
+    
+    <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('/serviceworker.js')
+                .then(function (reg) {
+                    console.log('Service Worker registered:', reg.scope);
+                })
+                .catch(function (err) {
+                    console.error('Service Worker failed:', err);
+                });
+        });
+    }
+     </script>
 
     {{-- Top App Bar --}}
     <header class="app-bar">
